@@ -113,13 +113,11 @@ const Home = () => {
           <div className="aboutInfo flex flex-col md:flex-row justify-center">
             <div className="info md:ml-10">
               <article className="text-xl text-center text-gray-600 p-4">
-                AI/ML Engineer with an MSc in Artificial Intelligence and a strong foundation in designing, training,
-                and deploying machine learning models. Proficient in Python, TensorFlow, and Scikit-learn, with hands-on experience in
-                natural language processing, computer vision, and time-series analysis, alongside software development expertise.
-                Experienced in full ML pipeline development—from data preprocessing (SQL, Pandas) to model deployment
-                (MLflow, Docker, Azure ML)—applying software engineering best practices to deliver scalable and robust AI solutions.
-                Passionate about solving real-world problems through innovative machine learning, eager to contribute my expertise in
-                building impactful solutions.
+                AI/ML Engineer with an MSc in Artificial Intelligence and strong expertise in designing, training, and deploying machine learning models.
+                Proficient in Python, TensorFlow, and Scikit-learn, with hands-on experience in NLP, computer vision, and time-series analysis, complemented by
+                software development skills. Experienced in the full ML pipeline—from data preprocessing (SQL, Pandas) to model deployment
+                (MLflow, Docker, Azure ML)—applying software engineering best practices to build scalable, robust AI solutions.
+                Passionate about building scalable, robust systems that solve real-world problems through innovative machine learning applications.
               </article>
 
               <section className="figures flex justify-center items-center mt-16">
