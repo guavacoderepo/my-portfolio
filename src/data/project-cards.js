@@ -1,8 +1,11 @@
-
+import chatbotImg from "../assets/images/chatbot.png";
+import mentalhealthImg from "../assets/images/mentalhealth.png";
+import devImg from "../assets/images/dev.jpg";
+import crimeImg from "../assets/images/crime.jpg";
 
 export const myProjects = [
   {
-    img: "../assets/images/chatbot.png",
+    img: chatbotImg,
     title: "RAG-Based Role-Specific AI Chatbot for FinSolve Technologies",
     skills: ["Python", "Pandas", "Matplotlib", "Seaborn", "Tkinter", "GitHub"],
     about: `This is an AI-powered chatbot solution built for FinSolve 
@@ -14,7 +17,7 @@ export const myProjects = [
     link: " https://github.com/guavacoderepo/Role-based-chatbot",
   },
   {
-    img: "../assets/images/mentalhealth.png",
+    img: mentalhealthImg,
     title: "Employee Mental Health Analysis",
     skills: ["Python", "Pandas", "Matplotlib", "Seaborn", "Tkinter", "GitHub"],
     about: `This project delves into the analysis of mental health cases among employees across 
@@ -24,7 +27,7 @@ export const myProjects = [
   },
 
   {
-    img: "../assets/images/dev.jpg",
+    img: devImg,
     title: `Machine Learning Analysis on Developer Compensation`,
     skills: [
       "Python",
@@ -43,7 +46,7 @@ export const myProjects = [
   },
 
   {
-    img: "../assets/images/crime.jpg",
+    img: crimeImg,
     title: "Crime Analysis & Forecasting",
     skills: ["Python", "Pandas", "Matplotlib", "Seaborn", "Tkinter", "GitHub"],
     about: `This project focuses on analyzing crime trends in Nigeria through data collected by 
