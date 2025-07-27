@@ -75,7 +75,7 @@ export const myProjects = [
   {
     img: crimeIq,
     title: "ACJMC",
-    skills: ["Python", "Pandas", "Matplotlib", "MongoDB", "Git"],
+    skills: ["Python", "Pandas", "FastAPI", "Matplotlib", "MongoDB", "Git"],
     about: `I built the backend for ACJMC, a government case management system tracking legal processes from arrest to custody. I implemented crime data analysis, CRUD operations, and database integration to support core features.`,
     link: "https://crimiq.com/",
   },
@@ -83,7 +83,15 @@ export const myProjects = [
   {
     img: caselaw,
     title: "Case Law Repository System",
-    skills: ["Python", "Pandas", "Matplotlib", "OpenCV", "MongoDB", "Git"],
+    skills: [
+      "Python",
+      "Pandas",
+      "Flask",
+      "Matplotlib",
+      "OpenCV",
+      "MongoDB",
+      "Git",
+    ],
     about: `I developed the analytic backend and implemented Optical Character Recognition (OCR) to enable keyword search across legal case judgment documents. This improved accessibility and retrieval of case law documents for legal practitioners and researchers.`,
     link: "https://caselaw.moj.dl.gov.ng/",
   },
