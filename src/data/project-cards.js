@@ -1,7 +1,10 @@
 import chatbotImg from "../assets/images/chatbot.png";
 import mentalhealthImg from "../assets/images/mentalhealth.png";
 import devImg from "../assets/images/dev.jpg";
-import crimeImg from "../assets/images/crime.jpg";
+import crimeImg from "../assets/images/crimeImg.png";
+import tracerImg from "../assets/images/tvet.png"
+import crimeIq from "../assets/images/crimeiq.png"
+import caselaw from "../assets/images/caslaw.png"
 
 export const myProjects = [
   {
@@ -53,5 +56,35 @@ export const myProjects = [
     about: `Conducted in-depth analysis of employee mental health data across organizations to uncover trends and correlations, 
     supporting improved mental health practices and workplace wellbeing.`,
     link: "https://github.com/guavacoderepo/SOFT40161-COURSE-WORK",
+  },
+  {
+    img: tracerImg,
+    title: "Tracer Studies",
+    skills: [
+      "Python",
+      "Pandas",
+      "Seaborn",
+      "Django",
+      "Matplotlib",
+      "MongoDB",
+      "Git",
+    ],
+    about: `Developed an analytics backend to track student performance, activities, and career paths, mapping job placements to academic metrics for institutional planning and alumni engagement.`,
+    link: "https://app.tracer.ng/",
+  },
+  {
+    img: crimeIq,
+    title: "ACJMC",
+    skills: ["Python", "Pandas", "Matplotlib", "MongoDB", "Git"],
+    about: `I built the backend for ACJMC, a government case management system tracking legal processes from arrest to custody. I implemented crime data analysis, CRUD operations, and database integration to support core features.`,
+    link: "https://crimiq.com/",
+  },
+
+  {
+    img: caselaw,
+    title: "Case Law Repository System",
+    skills: ["Python", "Pandas", "Matplotlib", "OpenCV", "MongoDB", "Git"],
+    about: `I developed the analytic backend and implemented Optical Character Recognition (OCR) to enable keyword search across legal case judgment documents. This improved accessibility and retrieval of case law documents for legal practitioners and researchers.`,
+    link: "https://caselaw.moj.dl.gov.ng/",
   },
 ];

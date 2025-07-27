@@ -10,11 +10,12 @@ import Projects from "../components/Projects";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Typing from "../components/Typing";
-import facebook from "../assets/logo/facebook-logo-facebook-icon-transparent-free-png.webp";
-import insta from "../assets/logo/instagram-filled.png";
+// import facebook from "../assets/logo/facebook-logo-facebook-icon-transparent-free-png.webp";
+// import insta from "../assets/logo/instagram-filled.png";
 import linkedin from "../assets/logo/social_linkedin.png";
-import twitter from "../assets/logo/twiitter x.jpeg";
+// import twitter from "../assets/logo/twiitter x.jpeg";
 import wavinghand from "../assets/images/waving-hand.png";
+import git from "../assets/logo/25231.png"
 
 const Home = () => {
   const [activeSection, setActiveSection] = useState("");
@@ -78,10 +79,10 @@ const Home = () => {
 
             {/* Social Links */}
             <div className="social-links flex items-center justify-center md:justify-start mt-4">
-              <a className="sm-link" href="#"><img className="w-10 m-1.5" src={facebook} alt="Facebook" /></a>
-              <a className="sm-link" href="#"><img className="w-8 m-1.5" src={insta} alt="Instagram" /></a>
-              <a className="sm-link" href="#"><img className="w-8 mx-1.5 mt-1" src={linkedin} alt="LinkedIn" /></a>
-              <a className="sm-link" href="#"><img className="w-8 m-1.5" src={twitter} alt="Twitter" /></a>
+              {/* <a className="sm-link" href="#"><img className="w-10 m-1.5" src={facebook} alt="Facebook" /></a>
+              <a className="sm-link" href="#"><img className="w-8 m-1.5" src={insta} alt="Instagram" /></a> */}
+              <a className="sm-link" href="https://www.linkedin.com/in/everistus-nwogo-a04178ab/"><img className="w-8 mx-1.5 mt-1" src={linkedin} alt="LinkedIn" /></a>
+              <a className="sm-link" href="https://github.com/guavacoderepo"><img className="w-8 m-1.5" src={git} alt="GitHub" /></a>
             </div>
 
             <button
@@ -113,11 +114,10 @@ const Home = () => {
           <div className="aboutInfo flex flex-col md:flex-row justify-center">
             <div className="info md:ml-10">
               <article className="text-xl text-center text-gray-600 p-4">
-                AI/ML Engineer with an MSc in Artificial Intelligence and strong expertise in designing, training, and deploying machine learning models.
-                Proficient in Python, TensorFlow, and Scikit-learn, with hands-on experience in NLP, computer vision, and time-series analysis, complemented by
-                software development skills. Experienced in the full ML pipeline—from data preprocessing (SQL, Pandas) to model deployment
-                (MLflow, Docker, Azure ML)—applying software engineering best practices to build scalable, robust AI solutions.
-                Passionate about building scalable, robust systems that solve real-world problems through innovative machine learning applications.
+                AI/ML Engineer with an MSc in Artificial Intelligence and expertise in end-to-end machine learning
+                development—spanning data preprocessing, model training, and deployment. Proficient in Python, TensorFlow,
+                and Scikit-learn, with hands-on experience in NLP, computer vision, and time-series analysis.
+                Skilled in building scalable, real-world AI solutions using tools like MLflow, Docker, and Azure ML.
               </article>
 
               <section className="figures flex justify-center items-center mt-16">
@@ -143,7 +143,7 @@ const Home = () => {
         <Projects />
         {/* <Services /> */}
         {/* <References /> */}
-        <Contact />
+        {/* <Contact /> */}
         <Footer />
       </section>
     </main>
