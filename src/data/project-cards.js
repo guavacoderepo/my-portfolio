@@ -27,7 +27,7 @@ export const myProjects = [
   {
     img: crimeImg,
     title: "Crime Analysis & Forecasting",
-    skills: ["Python", "spaCy", "Pandas", "TensorFlow", "Scikit-Learn", "Git"],
+    skills: ["Python", "Flask", "spaCy", "Pandas", "TensorFlow", "Scikit-Learn", "Git"],
     about: `Scraped Nigerian crime data, applied NLP preprocessing (tokenization, stemming, lemmatization), 
     and trained a model achieving over 85% accuracy to identify crime patterns that inform prevention
     strategies and optimize resource allocation.`,
