@@ -113,7 +113,7 @@ const Home = () => {
 
           <div className="aboutInfo flex flex-col md:flex-row justify-center">
             <div className="info md:ml-10">
-              <article className="text-xl text-center text-gray-600 p-4">
+              <article className="text-l text-center text-gray-600 p-4">
                 AI/ML Engineer with an MSc in Artificial Intelligence and expertise in end-to-end machine learning
                 development—spanning data preprocessing, model training, and deployment. Proficient in Python, TensorFlow,
                 and Scikit-learn, with hands-on experience in NLP, computer vision, and time-series analysis.
