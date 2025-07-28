@@ -8,7 +8,7 @@ const Experience = () => {
       date: "July 2022 - July 2024",
     },
     {
-      role: "AI and Data Engineer",
+      role: "Software Engineer",
       org: "Gallery of Code",
       date: "March 2023 - June 2024",
     },
@@ -25,7 +25,7 @@ const Experience = () => {
       course: "Msc Artificial Intelligence",
       school: "Nottingham Trent University",
       location: "United Kingdom",
-      date: "September 2024 - Present",
+      date: "September 2024 - September 2025",
     },
     {
       course: "BEng (Hons), Computer Engineering",
