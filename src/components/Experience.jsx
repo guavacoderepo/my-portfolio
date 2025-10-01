@@ -5,13 +5,19 @@ const Experience = () => {
     {
       role: "Software Engineer",
       org: "Nextwear Technologies",
-      date: "July 2022 - July 2024",
+      date: "July 2022 – June 2024",
     },
     {
       role: "Software Engineer",
       org: "Gallery of Code",
-      date: "March 2023 - June 2024",
+      date: "March 2022 – June 2024",
     },
+    {
+      role: "Data Analyst & Mentor",
+      org: "Odyssey Educational Foundation",
+      date: "July 2020 - September 2024",
+    },
+
     // {
     //   role: "Lead Backend engineer",
     //   org: "Future feet",

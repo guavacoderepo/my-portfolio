@@ -114,15 +114,17 @@ const Home = () => {
           <div className="aboutInfo flex flex-col md:flex-row justify-center">
             <div className="info md:ml-10">
               <article className="text-l text-center text-gray-600 p-4">
-                AI/ML Engineer with an MSc in Artificial Intelligence and expertise in end-to-end machine learning
-                development—spanning data preprocessing, model training, and deployment. Proficient in Python, TensorFlow,
-                and Scikit-learn, with hands-on experience in NLP, computer vision, and time-series analysis.
-                Skilled in building scalable, real-world AI solutions using tools like MLflow, Docker, and Azure ML.
+                AI and Machine Learning Engineer with a strong software engineering background, experienced in
+                developing end-to-end AI/ML systems. Skilled in Python, SQL, FastAPI, TensorFlow, PyTorch, and
+                data visualisation tools, with expertise in predictive modelling, NLP, and generative AI across
+                the full machine learning lifecycle. Experienced in deploying models and applications on the cloud,
+                delivering scalable, real-world AI solutions. Passionate about leveraging AI and data-driven insights
+                to solve complex challenges.
               </article>
 
               <section className="figures flex justify-center items-center mt-16">
                 <div className="mr-10 text-center">
-                  <h1 className="text-2xl font-semibold text-purple-700">2+</h1>
+                  <h1 className="text-2xl font-semibold text-purple-700">4+</h1>
                   <p className="text-gray-500">Years Experience</p>
                 </div>
                 <div className="mr-10 text-center">
@@ -130,7 +132,7 @@ const Home = () => {
                   <p className="text-gray-500">Projects</p>
                 </div>
                 <div className="text-center">
-                  <h1 className="text-2xl font-semibold text-purple-700">2+</h1>
+                  <h1 className="text-2xl font-semibold text-purple-700">4+</h1>
                   <p className="text-gray-500">Companies</p>
                 </div>
               </section>
