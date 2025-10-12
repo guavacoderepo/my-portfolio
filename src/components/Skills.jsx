@@ -2,30 +2,50 @@ import React from "react";
 
 const Skills = () => {
   const skills = [
+    // Programming & Data Science
     "Python",
-    "Scikit-Learn",
-    "TensorFlow",
-    "Pandas",
-    "NumPy",
-    "LLM",
-    "RAG",
-    "Applied Statistics",
+    "R",
     "SQL",
     "NoSQL",
+    "Pandas",
+    "NumPy",
+    "Scikit-Learn",
+    "TensorFlow",
+    "PyTorch",
+    "Applied Statistics",
+    "Matplotlib",
+    "Seaborn",
+    "Time-Series Analysis",
+    "NLP",
+    "Computer Vision",
+    "LLM",
+    "RAG",
+
+    // Web & API Development
     "Flask",
     "FastAPI",
     "API Design",
+    "RESTful APIs",
     "Docker",
+    "Kubernetes",
     "Azure",
-    "Git",
+    "AWS",
+    "Redis",
+
+    // ML Lifecycle & DevOps
     "MLflow",
+    "Model Deployment",
     "Testing & Debugging",
+    "CI/CD",
+    "Version Control (Git)",
+
+    // Software Engineering & Collaboration
     "Database Design",
-    "Matplotlib",
-    "Seaborn",
     "Technical Documentation",
     "Team Collaboration",
     "Problem-Solving",
+    "Agile Methodologies",
+    "Project Management"
   ];
 
   return (

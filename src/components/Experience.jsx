@@ -3,53 +3,44 @@ import React, { useState } from "react";
 const Experience = () => {
   const exp = [
     {
-      role: "Software Engineer",
-      org: "Nextwear Technologies",
-      date: "July 2022 – June 2024",
+      role: "Operations Analyst (Contract)",
+      org: "Hamtee Limited, United Kingdom",
+      date: "October 2025 – Present"
+    },
+    {
+      role: "Data Analyst & Mentor (Part-time)",
+      org: "Odyssey Educational Foundation, Nigeria",
+      date: "July 2020 – September 2024"
     },
     {
       role: "Software Engineer",
-      org: "Gallery of Code",
-      date: "March 2022 – June 2024",
+      org: "Gallery of Code, Nigeria",
+      date: "March 2022 – June 2024"
     },
     {
-      role: "Data Analyst & Mentor",
-      org: "Odyssey Educational Foundation",
-      date: "July 2020 - September 2024",
-    },
-
-    // {
-    //   role: "Lead Backend engineer",
-    //   org: "Future feet",
-    //   date: "Jul-2024 - September 2024",
-    // },
+      role: "Software Engineer (Contract)",
+      org: "Nextwear Technologies, Nigeria",
+      date: "July 2022 – June 2024"
+    }
   ];
 
 
-  const education = [
-    {
-      course: "Msc Artificial Intelligence",
-      school: "Nottingham Trent University",
-      location: "United Kingdom",
-      date: "September 2024 - September 2025",
-    },
-    {
-      course: "BEng (Hons), Computer Engineering",
-      school: "Michael Okpara University of Agriculture",
-      location: "Nigeria",
-      date: "September 2015 - October 2020",
-    },
-  ];
-  const line = [
-    {
-      circle: ".",
-      line: ".",
-    },
-    {
-      circle: ".",
-      line: ".",
-    },
-  ];
+const education = [
+  {
+    course: "MSc Artificial Intelligence",
+    school: "Nottingham Trent University",
+    location: "United Kingdom",
+    date: "September 2024 - September 2025",
+    grade: "Distinction" // You can replace with actual grade if available
+  },
+  {
+    course: "BEng (Hons), Computer Engineering",
+    school: "Michael Okpara University of Agriculture",
+    location: "Nigeria",
+    date: "September 2015 - October 2020",
+    grade: "Second Class Upper"
+  }
+];
 
   const [activeTab, setActiveTab] = useState("professional");
   const handleTab = () => {
@@ -66,46 +57,6 @@ const Experience = () => {
         <p>My experience both academically & professionally -- </p>
       </div>
       <section className="exp">
-        {/* <div className="subheads flex justify-center items-center">
-          <button
-            id="academic"
-            className={` mr-8 flex items-center academic ${
-              activeTab === "academic"
-                ? "bg-purple-700 text-white p-2 rounded flex "
-                : ""
-            }`}
-            onClick={handleTab}
-            activeTab={activeTab}
-            setActiveTab={setActiveTab}
-          >
-            <i class="bx bxs-graduation"></i>
-            <p className="m-1">Academic</p>
-          </button>
-          <button
-            className={`professional flex items-center p-2 ${
-              activeTab === "professional"
-                ? "bg-purple-700 text-white rounded "
-                : ""
-            }`}
-          >
-            <i class="bx bxs-briefcase"></i>
-            <p className="m-1">Professional</p>
-          </button>
-        </div> */}
-        {/* trying to make this line duplicate everytime a new experience is added */}
-        {/* {line.forEach((experience) => {
-            if (exp.length) {
-              line.push(experience);
-              }
-              <div className="flex flex-col justify-center items-center">
-              <div className="rounded-full bg-purple-700 w-6">
-              {experience.circle}
-              </div>
-              <div className="line h-20 w-1 bg-purple-700">
-              {experience.line}
-              </div>
-              </div>;
-              })} */}
 
         <div className="exp-body flex justify-center">
           <section className="edu-section m-5 mr-14">
@@ -118,7 +69,7 @@ const Experience = () => {
               <div className="eduContent my-2" key={index}>
                 <div className="py-3">
                   <h1 className="course font-medium">{edu.course}</h1>
-                  <p>{edu.school}</p>
+                  <p>{edu.school} - {edu.grade }</p>
                   <p className="text-sm text-gray-500">{edu.location}</p>
                 </div>
                 <span className="text-gray-500 text-sm">
