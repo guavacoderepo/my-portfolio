@@ -1,8 +1,37 @@
+import ai_agent0 from "../assets/imgs/ai agent-0.png";
+import ai_agent1 from "../assets/imgs/ai agent-1.png";
+import ai_agent2 from "../assets/imgs/ai agent-2.png";
+import role_base from "../assets/imgs/role base chatbot.png";
+import role_base0 from "../assets/imgs/role base chatbot-0.png";
+import role_base1 from "../assets/imgs/role base chatbot-1.png";
+import role_base2 from "../assets/imgs/role base chatbot-2.png";
+import churn_prediction0 from "../assets/imgs/churn prediction-0.png";
+import xray_app0 from "../assets/imgs/xray app-0.png";
+import crime_app from "../assets/imgs/crime app.png";
+import crime_app0 from "../assets/imgs/crime app-0.png";
+import crime_app1 from "../assets/imgs/crime app-1.png";
+import crime_app2 from "../assets/imgs/crime app-2.png";
+import crime_app3 from "../assets/imgs/crime app-3.png";
+import ml_compen0 from "../assets/imgs/ml_salary-0.png";
+import ml_compen1 from "../assets/imgs/ml_salary-1.png";
+import ml_compen2 from "../assets/imgs/ml_salary-2.png";
+import ml_compen3 from "../assets/imgs/ml_salary-3.png";
+import mental_health0 from "../assets/imgs/mental_health-0.png";
+import mental_health1 from "../assets/imgs/mental_health-1.png";
+import elt_pipeline from "../assets/imgs/etl_pipeline.png";
+import elt_pipeline0 from "../assets/imgs/etl_pipeline-0.png";
+import elt_pipeline1 from "../assets/imgs/etl_pipeline-1.png";
+import elt_pipeline2 from "../assets/imgs/etl_pipeline-2.png";
+import elt_pipeline3 from "../assets/imgs/etl_pipeline-3.png";
+import crimeiq from "../assets/imgs/crimeiq.png";
+import caselaw from "../assets/imgs/caselaw.png";
+import tvet from "../assets/imgs/tvet.png";
+
 export const myProjects = [
   {
     title: "Zionmart Agentic Customer Support",
     category: "AI/ML & Data Science",
-    img: "src/assets/imgs/ai agent-0.png",
+    img: ai_agent0,
     skills: [
       "Python",
       "LangGraph",
@@ -21,17 +50,14 @@ export const myProjects = [
       "An AI-powered multi-agent system that automates customer support and order management through intelligent task routing and context-aware reasoning.",
     description:
       "The Zionmart Agentic Customer Support System is an AI-powered multi-agent framework developed to automate customer support, order management, and user enquiry handling within an e-commerce ecosystem. Built with Python, it leverages LangGraph and LangChain for agentic reasoning and task orchestration, enabling specialized agents to collaborate efficiently through a graph-based workflow. The system employs Retrieval-Augmented Generation (RAG) to access Zionmart’s internal knowledge base, ensuring responses are contextually accurate and grounded in real organizational data. FastAPI, SQLAlchemy, and PostgreSQL form the backend infrastructure, providing scalable API endpoints and reliable data management. A Supervisor Agent oversees task routing and coordination, ensuring intelligent automation, operational efficiency, and consistent user experience across the support pipeline.",
-    images: [
-      "src/assets/imgs/ai agent-1.png",
-      "src/assets/imgs/ai agent-2.png",
-    ],
+    images: [ai_agent1, ai_agent2],
     liveLink: "https://zionmart-agent-client.vercel.app/",
     gitLink: "https://github.com/guavacoderepo/Zionmart-agent-server",
   },
   {
     title: "RAG-Based AI Chatbot for FinSolve Technologies",
     category: "AI/ML & Data Science",
-    img: "src/assets/imgs/role base chatbot-0.png",
+    img: role_base,
     skills: [
       "Python",
       "LLM",
@@ -47,10 +73,7 @@ export const myProjects = [
       "Secure, role-specific AI chatbot leveraging Retrieval-Augmented Generation (RAG) to streamline enterprise communication and improve data access efficiency.",
     description:
       "Developed a RAG-based AI chatbot for FinSolve Technologies using Python, FastAPI, Streamlit, and Qdrant to enhance inter-departmental communication. The system leverages GPT (LLM) for context-aware responses, while Qdrant provides efficient vector search for retrieving role-specific information. FastAPI powers a lightweight, secure backend with JWT authentication for user access control, and Streamlit delivers an intuitive frontend for seamless interaction. This combination of tools enabled secure, role-based access to sensitive data, reduced operational bottlenecks, and significantly improved decision-making efficiency across departments.",
-    images: [
-      "src/assets/imgs/role base chatbot-1.png",
-      "src/assets/imgs/role base chatbot-2.png",
-    ],
+    images: [role_base0, role_base1, role_base2],
     liveLink: "https://finsolve-chatbot.streamlit.app/",
     gitLink:
       "https://github.com/guavacoderepo/Role-based-chatbot/blob/main/readme.md",
@@ -59,7 +82,7 @@ export const myProjects = [
   {
     title: "Customer Retention Prediction and Monitoring",
     category: "AI/ML & Data Science",
-    img: "src/assets/imgs/churn prediction-0.png",
+    img: churn_prediction0,
     skills: [
       "Python",
       "FastAPI",
@@ -86,7 +109,7 @@ export const myProjects = [
   {
     title: "Chest X-Ray Disease Classification",
     category: "AI/ML & Data Science",
-    img: "src/assets/imgs/xray app-0.png",
+    img: xray_app0,
     skills: [
       "Python",
       "TensorFlow",
@@ -110,7 +133,7 @@ export const myProjects = [
   {
     title: "Crime Analysis & Forecasting",
     category: "AI/ML & Data Science",
-    img: "src/assets/imgs/crime app-0.png",
+    img: crime_app,
     skills: [
       "Python",
       "TensorFlow",
@@ -127,112 +150,144 @@ export const myProjects = [
       "AI-driven system for analyzing crime trends and forecasting potential incidents using NLP and machine learning.",
     description:
       "The system was developed to analyze and forecast crime patterns in Nigeria by curating data from multiple Nigerian crime reporting websites. Web scraping techniques were applied to collect and consolidate crime reports, which were then preprocessed using Natural Language Processing methods including tokenization, stemming, and lemmatization. Predictive models were trained using TensorFlow and Scikit-learn, achieving 85% accuracy in identifying high-risk areas and temporal trends. The backend is powered by Flask, while a React-based frontend provides an interactive dashboard for visualizing crime hotspots, patterns, and forecasts. This solution enables law enforcement agencies and policymakers to make data-driven decisions, allocate resources effectively, and enhance community safety.",
-    images: [
-      "src/assets/imgs/crime app-1.png",
-      "src/assets/imgs/crime app-2.png",
-      "src/assets/imgs/crime app-3.png",
-    ],
+    images: [crime_app0, crime_app1, crime_app2, crime_app3],
     liveLink: "https://criminalysis.vercel.app/",
     gitLink: "#",
   },
   {
     title: "Machine Learning Analysis on Developer Compensation",
     category: "AI/ML & Data Science",
-    img: "https://via.placeholder.com/400x300/0ea5e9/ffffff?text=Dev+Compensation",
-    skills: ["Python", "Pandas", "Matplotlib", "Seaborn", "Scikit-learn"],
-    about:
-      "Data-driven analysis and prediction of developer compensation trends.",
-    description:
-      "Applied clustering, classification, and regression models to Stack Overflow survey data to identify key salary predictors and trends. Achieved over 75% accuracy in predicting developer compensation levels.",
-    images: [
-      "https://via.placeholder.com/800x600/0284c7/ffffff?text=Salary+Analysis",
-      "https://via.placeholder.com/800x600/0369a1/ffffff?text=Trends+Visualization",
+    img: ml_compen0,
+    skills: [
+      "Python",
+      "Pandas",
+      "Matplotlib",
+      "Seaborn",
+      "Scikit-learn",
+      "XGBoost",
+      "SMOTE",
+      "Data Visualization",
     ],
+    about:
+      "Data-driven analysis and prediction of developer compensation trends using machine learning.",
+    description:
+      "This project analyzed developer compensation trends using the Stack Overflow 2024 Annual Developer Survey dataset. Data preprocessing, exploratory data analysis, and feature engineering were conducted to identify key predictors such as experience, industry, country, technical skills, and work style. Clustering analysis using K-Means uncovered patterns in developer salary groups, while classification models including Random Forest, Logistic Regression, and XGBoost were applied to distinguish high-income and low-income developers. Regression models, including Random Forest and Gradient Boosting, were used to predict exact annual salaries, with careful handling of outliers and skewed distributions to improve accuracy. SMOTE and class-weight adjustments addressed imbalanced salary categories. Visualizations using Matplotlib and Seaborn were employed to support insights and trends discovery. The study provides actionable intelligence for developers, recruiters, and HR managers to inform career planning, compensation benchmarking, and talent management.",
+    images: [ml_compen1, ml_compen2, ml_compen3],
     liveLink: "#",
-    gitLink: "https://github.com/guavacoderepo/-COMP40721-COURSE-WORK",
+    gitLink: "https://github.com/guavacoderepo/Developers-Compensation-2024",
   },
+
   {
     title: "Employee Mental Health Analysis",
     category: "AI/ML & Data Science",
-    img: "https://via.placeholder.com/400x300/8b5cf6/ffffff?text=Mental+Health+AI",
-    skills: ["Python", "Pandas", "Matplotlib", "Seaborn", "Tkinter"],
-    about: "Exploratory data analysis of employee mental health trends.",
-    description:
-      "Analyzed organizational datasets to identify correlations between workplace factors and employee wellbeing. Generated actionable insights to support mental health policies and corporate wellness programs.",
-    images: [
-      "https://via.placeholder.com/800x600/7c3aed/ffffff?text=Correlation+Matrix",
-      "https://via.placeholder.com/800x600/6d28d9/ffffff?text=Wellbeing+Trends",
+    img: mental_health0,
+    skills: [
+      "Python",
+      "Pandas",
+      "Matplotlib",
+      "Seaborn",
+      "Tkinter",
+      "Data Visualization",
+      "EDA",
     ],
+    about:
+      "Exploratory data analysis of employee mental health trends and workplace factors.",
+    description:
+      "This project analyzed employee mental health survey data to identify patterns and correlations between workplace factors and employee wellbeing. The dataset was curated from Kaggle and contained responses from employees across various organizations. Data preprocessing included handling missing values, duplicates, and erroneous entries, as well as feature selection for the most relevant columns. Exploratory data analysis was conducted to explore distributions by gender, region, family history, and treatment status. Visualizations using Matplotlib and Seaborn highlighted key trends, while insights informed recommendations for corporate wellness programs and mental health policies. The analysis provides organizations with actionable intelligence to enhance employee support, reduce workplace stress, and promote mental well-being.",
+    images: [mental_health1],
     liveLink: "#",
-    gitLink: "https://github.com/guavacoderepo/SOFT40161-COURSE-WORK",
+    gitLink: "https://github.com/guavacoderepo/Employee-Mental-Health-Analysis",
   },
+
   {
     title: "Zion Mart Real-Time ETL Pipeline",
     category: "Data Engineering",
-    img: "https://via.placeholder.com/400x300/10b981/ffffff?text=ETL+Pipeline",
+    img: elt_pipeline,
     skills: [
       "Azure SQL",
       "Azure Data Factory",
-      "CDC",
+      "Change Data Capture (CDC)",
       "Azure Event Hub",
       "Apache Kafka",
       "Azure Databricks",
       "Power BI",
+      "Real-Time Analytics",
+      "Medallion Architecture",
     ],
     about:
-      "Real-time data pipeline for e-commerce analytics using Medallion Architecture.",
+      "Real-time ETL pipeline enabling live analytics and product recommendations for e-commerce.",
     description:
-      "Built a scalable ETL pipeline for Zion Mart integrating batch and streaming data with Azure Databricks and Kafka. Delivered live product recommendations and performance insights with Power BI visualizations.",
-    images: [
-      "https://via.placeholder.com/800x600/047857/ffffff?text=Pipeline+Architecture",
-      "https://via.placeholder.com/800x600/065f46/ffffff?text=Power+BI+Dashboard",
-    ],
+      "This project involved designing and implementing a scalable real-time ETL pipeline for Zion Mart using Medallion Architecture. Data from multiple sources, including transactional and streaming events, was ingested using Azure Data Factory, CDC, and Azure Event Hub, while Apache Kafka handled high-throughput streaming. Azure Databricks was leveraged for batch and streaming transformations, ensuring clean, reliable, and enriched data for analytics. The processed data powered real-time dashboards and live product recommendation features via Power BI, enabling business teams to monitor performance, track customer behavior, and make informed decisions. The pipeline is fully scalable, fault-tolerant, and optimized for high-volume e-commerce operations.",
+    images: [elt_pipeline0, elt_pipeline1, elt_pipeline2, elt_pipeline3],
     liveLink: "#",
     gitLink: "#",
   },
+
   {
     title: "Tracer Studies",
     category: "Software Engineering",
-    img: "https://via.placeholder.com/400x300/06b6d4/ffffff?text=Tracer+Studies",
-    skills: ["Python", "Pandas", "Seaborn", "Django", "Matplotlib", "MongoDB"],
-    about:
-      "Analytics backend for tracking student performance and career outcomes.",
-    description:
-      "Developed a Django-based analytics backend to track alumni career paths and job placement data. Enabled universities to correlate academic performance with employment outcomes for better policy planning.",
-    images: [
-      "https://via.placeholder.com/800x600/0e7490/ffffff?text=Student+Tracking",
-      "https://via.placeholder.com/800x600/155e75/ffffff?text=Career+Analysis",
+    img: tvet,
+    skills: [
+      "Python",
+      "Pandas",
+      "Seaborn",
+      "Django",
+      "Matplotlib",
+      "MongoDB",
+      "Data Analytics",
+      "Backend Development",
     ],
+    about:
+      "Analytics backend system for monitoring alumni career outcomes and academic performance correlations.",
+    description:
+      "This project involved developing a Django-based analytics backend to track student academic performance and post-graduation career outcomes. Data from alumni surveys and institutional records was processed using Pandas, visualized with Matplotlib and Seaborn, and stored in MongoDB for flexible, scalable querying. The system enables universities to identify patterns between academic achievement and employment outcomes, supporting evidence-based policy decisions, program evaluation, and career guidance initiatives. By providing actionable insights into student trajectories, the platform assists institutions in improving curriculum relevance, career support services, and overall graduate employability.",
+    images: [tvet],
     liveLink: "https://app.tracer.ng/",
     gitLink: "#",
   },
   {
     title: "ACJMC",
     category: "Software Engineering",
-    img: "https://via.placeholder.com/400x300/f87171/ffffff?text=ACJMC",
-    skills: ["Python", "Pandas", "FastAPI", "Matplotlib", "MongoDB"],
-    about: "Government case management system for tracking legal processes.",
-    description:
-      "Implemented the backend for ACJMC, supporting crime data analysis, CRUD operations, and real-time tracking of legal cases from arrest to custody. Streamlined judicial data access and reporting.",
-    images: [
-      "https://via.placeholder.com/800x600/b91c1c/ffffff?text=Case+Tracking",
-      "https://via.placeholder.com/800x600/991b1b/ffffff?text=Analytics+Dashboard",
+    img: crimeiq,
+    skills: [
+      "Python",
+      "Pandas",
+      "FastAPI",
+      "Matplotlib",
+      "MongoDB",
+      "Backend Development",
+      "Data Analytics",
+      "Real-Time Tracking",
     ],
+    about:
+      "Government case management backend system for monitoring legal processes and crime data.",
+    description:
+      "This project involved developing the backend system for ACJMC, a government case management platform designed to monitor and manage legal proceedings. The system supports CRUD operations on cases, real-time tracking of legal processes from arrest to custody, and crime data analysis. Data is processed using Pandas, visualized with Matplotlib for insights, and stored in MongoDB for scalable querying. By streamlining access to judicial data and enabling comprehensive reporting, the platform enhances operational efficiency, decision-making, and transparency within the justice system.",
+    images: [crimeiq],
     liveLink: "https://crimiq.com/",
     gitLink: "#",
   },
+
   {
     title: "Case Law Repository System",
     category: "Software Engineering",
-    img: "https://via.placeholder.com/400x300/0d9488/ffffff?text=Case+Law+Repository",
-    skills: ["Python", "Pandas", "Flask", "Matplotlib", "OpenCV", "MongoDB"],
-    about: "OCR-powered legal case search and analytics system.",
-    description:
-      "Developed a Flask-based system that digitizes and indexes case law documents using OCR, enabling keyword search and retrieval across large legal datasets for improved accessibility and research efficiency.",
-    images: [
-      "https://via.placeholder.com/800x600/134e4a/ffffff?text=OCR+Processing",
-      "https://via.placeholder.com/800x600/115e59/ffffff?text=Search+Interface",
+    img: caselaw,
+    skills: [
+      "Python",
+      "Pandas",
+      "Flask",
+      "Matplotlib",
+      "OpenCV",
+      "MongoDB",
+      "OCR",
+      "Backend Development",
+      "Data Analytics",
     ],
+    about:
+      "OCR-powered legal case management and search system for efficient document retrieval.",
+    description:
+      "This project involved developing a Flask-based system that digitizes, indexes, and analyzes legal case documents. An OCR module was integrated to extract text from scanned case files, enabling precise keyword-based searches across large datasets. The system processes and organizes legal documents using Pandas, stores structured data in MongoDB for efficient querying, and provides visual insights through Matplotlib. By combining OCR, searchable indexing, and analytics, the platform improves accessibility, research efficiency, and decision-making for legal professionals and researchers.",
+    images: [caselaw],
     liveLink: "https://caselaw.moj.dl.gov.ng/",
     gitLink: "#",
   },

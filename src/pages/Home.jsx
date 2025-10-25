@@ -13,14 +13,20 @@ import git from "../assets/logo/25231.png";
 import { Award, Briefcase, Code, ExternalLink } from "lucide-react";
 
 // Add your certificate images here
-import cert1 from "../assets/images/churn_pred.png";
-import cert2 from "../assets/images/churn_pred.png";
-import cert3 from "../assets/images/churn_pred.png";
+import cert1 from "../assets/imgs/Cert65718749352.pdf";
+import cert2 from "../assets/imgs/UC-9791ce26-b09a-49dc-878a-49103eb7b3fa.pdf";
+import cert3 from "../assets/imgs/UC-f5b951cf-5120-405e-9142-7db809d2a137.pdf";
+import cert4 from "../assets/imgs/Coursera K4KG2WZSTRSX.pdf";
+import cert5 from "../assets/imgs/Coursera 7BG9PHX5TPE7.pdf";
+import cert6 from "../assets/imgs/UC-9f23fbdb-7d8d-47f5-8c54-f0abb23cd75c.pdf";
 
 const certificates = [
-  { img: cert1, title: "AWS Certified Solutions Architect", issuer: "Amazon Web Services" },
-  { img: cert2, title: "Microsoft Azure AI Fundamentals", issuer: "Microsoft" },
-  { img: cert3, title: "TensorFlow Developer Certificate", issuer: "Google" },
+  { img: cert1, title: "Microsoft Azure Data Fundamentals", issuer: "Microsoft" },
+  { img: cert2, title: "TensorFlow for Deep Learning", issuer: "Udemy" },
+  { img: cert3, title: "Data Engineering Essentials", issuer: "Udemy" },
+  { img: cert4, title: "SQL for Data Science", issuer: "University of California, Davis (Coursera)" },
+  { img: cert5, title: "Python Data Structures", issuer: "University of Michigan (Coursera)" },
+  { img: cert6, title: "Node.js API Masterclass With Express & MongoDB", issuer: "Udemy" },
 ];
 
 const Home = () => {
@@ -150,12 +156,12 @@ const Home = () => {
           <div className="max-w-4xl mx-auto">
             <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-3xl p-8 md:p-12 shadow-lg">
               <p className="text-lg text-gray-700 leading-relaxed mb-8">
-                AI and Machine Learning Engineer with a strong software engineering background, experienced in
-                developing end-to-end AI/ML systems. Skilled in Python, SQL, FastAPI, TensorFlow, PyTorch, and
-                data visualisation tools, with expertise in predictive modelling, NLP, and generative AI across
-                the full machine learning lifecycle. Experienced in deploying models and applications on the cloud,
-                delivering scalable, real-world AI solutions. Passionate about leveraging AI and data-driven insights
-                to solve complex challenges.
+                AI and Machine Learning Engineer with strong software engineering experience,
+                experienced in developing end-to-end AI/ML systems. Skilled in Python, SQL, FastAPI,
+                TensorFlow, PyTorch, and data visualisation tools, with expertise in predictive modelling,
+                NLP, and generative AI across the full machine learning lifecycle. Experienced in deploying models
+                and applications on the cloud, delivering scalable, real-world AI solutions. Passionate about leveraging
+                AI and data-driven insights to solve complex challenges.
               </p>
 
               {/* Stats */}
@@ -178,7 +184,7 @@ const Home = () => {
                   <div className="inline-flex items-center justify-center w-12 h-12 bg-purple-100 rounded-xl mb-4">
                     <Award className="w-6 h-6 text-purple-700" />
                   </div>
-                  <h3 className="text-4xl font-bold text-purple-700 mb-2">4+</h3>
+                  <h3 className="text-4xl font-bold text-purple-700 mb-2">3+</h3>
                   <p className="text-gray-600 font-medium">Companies Worked</p>
                 </div>
               </div>
