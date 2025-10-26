@@ -53,7 +53,7 @@ export const myProjects = [
     description:
       "The Zion Mart Agentic Customer Support System is an AI-driven, multi-agent framework designed to automate customer support, order management, and enquiry resolution in an e-commerce environment. At its core, the system employs LangGraph and LangChain to orchestrate autonomous agents within a graph-based workflow. Each agent specializes in distinct tasks—such as intent understanding, knowledge retrieval, or order processing—and collaboratively communicates under the supervision of a central coordinator agent. Using Retrieval-Augmented Generation (RAG), the agents ground responses in Zion Mart’s internal data sources to ensure factual accuracy and contextual relevance. The system is built with Python and integrates FastAPI, SQLAlchemy, and PostgreSQL for scalable data handling and robust API interaction. Deployed on Microsoft Azure, it leverages cloud reliability and performance for real-time, intelligent support operations, enhancing user experience and operational efficiency across the customer service pipeline.",
     images: [ai_agent1, ai_agent2, ai_agent3, ai_agent4],
-    liveLink: "https://zionmart-agent-client.vercel.app/",
+    liveLink: "https://agentic-zionmart-client.vercel.app/",
     gitLink: "https://github.com/guavacoderepo/Zionmart-agent-server",
   },
   {
@@ -70,7 +70,6 @@ export const myProjects = [
       "SQL",
       "Docker",
       "Git",
-      
     ],
     about:
       "Secure, role-specific AI chatbot leveraging Retrieval-Augmented Generation (RAG) to streamline enterprise communication and improve data access efficiency.",
