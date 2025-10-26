@@ -1,6 +1,8 @@
 import ai_agent0 from "../assets/imgs/ai agent-0.png";
 import ai_agent1 from "../assets/imgs/ai agent-1.png";
 import ai_agent2 from "../assets/imgs/ai agent-2.png";
+import ai_agent3 from "../assets/imgs/ai agent-3.png";
+import ai_agent4 from "../assets/imgs/ai agent-4.png";
 import role_base from "../assets/imgs/role base chatbot.png";
 import role_base0 from "../assets/imgs/role base chatbot-0.png";
 import role_base1 from "../assets/imgs/role base chatbot-1.png";
@@ -50,7 +52,7 @@ export const myProjects = [
       "An AI-powered multi-agent system that automates customer support and order management through intelligent task routing and context-aware reasoning.",
     description:
       "The Zionmart Agentic Customer Support System is an AI-powered multi-agent framework developed to automate customer support, order management, and user enquiry handling within an e-commerce ecosystem. Built with Python, it leverages LangGraph and LangChain for agentic reasoning and task orchestration, enabling specialized agents to collaborate efficiently through a graph-based workflow. The system employs Retrieval-Augmented Generation (RAG) to access Zionmart’s internal knowledge base, ensuring responses are contextually accurate and grounded in real organizational data. FastAPI, SQLAlchemy, and PostgreSQL form the backend infrastructure, providing scalable API endpoints and reliable data management. A Supervisor Agent oversees task routing and coordination, ensuring intelligent automation, operational efficiency, and consistent user experience across the support pipeline.",
-    images: [ai_agent1, ai_agent2],
+    images: [ai_agent1, ai_agent2, ai_agent3, "../assets/imgs/ai agent-4.png"],
     liveLink: "https://zionmart-agent-client.vercel.app/",
     gitLink: "https://github.com/guavacoderepo/Zionmart-agent-server",
   },
