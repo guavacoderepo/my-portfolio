@@ -1,8 +1,18 @@
 import { useState } from "react";
 import { X, ExternalLink, Github, ChevronLeft, ChevronRight } from "lucide-react";
 import { myProjects } from "../data/project-cards";
-import ReactMarkdown from "react-markdown";
 
+// HuggingFace icon component (since lucide-react doesn't have it)
+const HuggingFaceIcon = ({ className }) => (
+  <svg
+    className={className}
+    viewBox="0 0 24 24"
+    fill="currentColor"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2.18c5.423 0 9.82 4.397 9.82 9.82 0 5.423-4.397 9.82-9.82 9.82-5.423 0-9.82-4.397-9.82-9.82 0-5.423 4.397-9.82 9.82-9.82zM8.5 7.5C7.672 7.5 7 8.172 7 9s.672 1.5 1.5 1.5S10 9.828 10 9s-.672-1.5-1.5-1.5zm7 0c-.828 0-1.5.672-1.5 1.5s.672 1.5 1.5 1.5S17 9.828 17 9s-.672-1.5-1.5-1.5zM12 13c-2.5 0-4.5 1.5-5 3.5h10c-.5-2-2.5-3.5-5-3.5z"/>
+  </svg>
+);
 
 const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -40,9 +50,9 @@ const Projects = () => {
 
   const renderProjects = (projects) => (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6">
-      {projects.map((project) => (
+      {projects.map((project, index) => (
         <div
-          key={project.id}
+          key={project.title + index}
           onClick={() => openModal(project)}
           className="bg-white rounded-2xl shadow-sm border border-gray-200 hover:shadow-xl hover:border-gray-300 transition-all duration-300 overflow-hidden cursor-pointer group"
         >
@@ -188,6 +198,16 @@ const Projects = () => {
                 </div>
               )}
 
+              {/* About Section */}
+              {selectedProject.about && (
+                <div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-3">Overview</h3>
+                  <p className="text-gray-700 leading-relaxed text-base">
+                    {selectedProject.about}
+                  </p>
+                </div>
+              )}
+
               {/* Skills */}
               <div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Technologies Used</h3>
@@ -205,16 +225,14 @@ const Projects = () => {
 
               {/* Description */}
               <div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">About This Project</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Detailed Description</h3>
                 <p className="text-gray-700 leading-relaxed text-base">
-
-                   {selectedProject.description}
-
+                  {selectedProject.description}
                 </p>
               </div>
 
               {/* Links */}
-              <div className="flex gap-4 pt-4">
+              <div className="flex flex-wrap gap-4 pt-4">
                 {selectedProject.liveLink && (
                   <a
                     href={selectedProject.liveLink}
@@ -235,6 +253,17 @@ const Projects = () => {
                   >
                     <Github className="w-5 h-5" />
                     View Code
+                  </a>
+                )}
+                {selectedProject.huggingfaceLink && (
+                  <a
+                    href={selectedProject.huggingfaceLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-yellow-500 to-orange-500 text-white rounded-xl hover:from-yellow-600 hover:to-orange-600 transition-all font-semibold shadow-lg hover:shadow-xl"
+                  >
+                    <HuggingFaceIcon className="w-5 h-5" />
+                    View on HuggingFace
                   </a>
                 )}
               </div>
