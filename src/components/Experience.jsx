@@ -40,7 +40,7 @@ const education = [
     course: "MSc Artificial Intelligence",
     school: "Nottingham Trent University",
     location: "United Kingdom",
-    date: "September 2024 - September 2025",
+    date: "September 2024 - October 2025",
     grade: "Distinction" // You can replace with actual grade if available
   },
   {
