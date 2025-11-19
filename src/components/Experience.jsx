@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const Experience = () => {
   const exp = [
-   {
+  {
       role: "Machine Learning Researcher",
       org: "NTU Medical Technologies Innovation Facility (MTIF)",
       date: "November 2025 - Present"
@@ -35,31 +35,23 @@ const Experience = () => {
   ];
 
 
-const education = [
-  {
-    course: "MSc Artificial Intelligence",
-    school: "Nottingham Trent University",
-    location: "United Kingdom",
-    date: "September 2024 - October 2025",
-    grade: "Distinction" // You can replace with actual grade if available
-  },
-  {
-    course: "BEng (Hons), Computer Engineering",
-    school: "Michael Okpara University of Agriculture",
-    location: "Nigeria",
-    date: "September 2015 - October 2020",
-    grade: "Second Class Upper"
-  }
-];
-
-  const [activeTab, setActiveTab] = useState("professional");
-  const handleTab = () => {
-    if (activeTab === "professional") {
-      setActiveTab(activeTab);
-    } else if (activeTab === "academic") {
-      setActiveTab(activeTab);
+  const education = [
+    {
+      course: "MSc Artificial Intelligence",
+      school: "Nottingham Trent University",
+      location: "United Kingdom",
+      date: "September 2024 - October 2025",
+      grade: "Distinction" // You can replace with actual grade if available
+    },
+    {
+      course: "BEng (Hons), Computer Engineering",
+      school: "Michael Okpara University of Agriculture",
+      location: "Nigeria",
+      date: "September 2015 - October 2020",
+      grade: "Second Class Upper"
     }
-  };
+  ];
+
   return (
     <main id="experience" className="mt-32 mx-16 js-scroll hideScroll">
       <div className="title m-12 text-center">
