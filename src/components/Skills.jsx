@@ -12,12 +12,11 @@ const Skills = () => {
     "Scikit-Learn",
     "TensorFlow",
     "PyTorch",
-    "Applied Statistics",
+    "Statistics",
     "Matplotlib",
     "Seaborn",
-    "Time-Series Analysis",
     "NLP",
-    "Computer Vision",
+    "OpenCV",
     "LLM",
     "RAG",
 
@@ -34,18 +33,8 @@ const Skills = () => {
 
     // ML Lifecycle & DevOps
     "MLflow",
-    "Model Deployment",
-    "Testing & Debugging",
     "CI/CD",
-    "Version Control (Git)",
-
-    // Software Engineering & Collaboration
-    "Database Design",
-    "Technical Documentation",
-    "Team Collaboration",
-    "Problem-Solving",
-    "Agile Methodologies",
-    "Project Management"
+    "Git",
   ];
 
   return (

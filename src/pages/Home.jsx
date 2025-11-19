@@ -156,11 +156,11 @@ const Home = () => {
           <div className="max-w-4xl mx-auto">
             <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-3xl p-8 md:p-12 shadow-lg">
               <p className="text-lg text-gray-700 leading-relaxed mb-8">
-                I am an AI/ML engineer and software engineer with extensive experience in building end-to-end AI/ML
-                systems and scalable software solutions. Proficient in Python, Django, SQL, FastAPI, TensorFlow, PyTorch,
-                and data visualization, with expertise in predictive modeling, NLP, and generative AI. Experienced in developing
-                and deploying server-side applications on the cloud, delivering production-ready AI solutions. Passionate about
-                leveraging AI and data-driven insights to solve complex, real-world challenges.
+                As a versatile AI and Software Engineer with over 4 years of experience, I have a proven record of building high-performance,
+                reliable applications using Python, TypeScript, JavaScript, Node.js, FastAPI, Flask, and Django. I bring deep experience
+                in cloud computing across AWS and Microsoft Azure and specialise in building secure, scalable, production-ready systems.
+                Beyond technical expertise, I excel at solving complex engineering challenges, optimising performance, and delivering
+                impactful solutions across cross-functional teams.
             </p>
 
               {/* Stats */}

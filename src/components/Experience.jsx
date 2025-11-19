@@ -2,25 +2,35 @@ import React, { useState } from "react";
 
 const Experience = () => {
   const exp = [
+   {
+      role: "Machine Learning Researcher",
+      org: "NTU Medical Technologies Innovation Facility (MTIF)",
+      date: "November 2025 - Present"
+    },
     {
-      role: "Operations Analyst (Contract)",
+      role: "Operations Analyst",
       org: "Hamtee Limited, United Kingdom",
       date: "October 2025 – Present"
     },
     {
-      role: "Data Analyst & Mentor (Part-time)",
+      role: "Software Engineer",
+      org: "Cizoti",
+      date: "October 2024 - February 2025"
+    },
+    {
+      role: "STEM Mentor",
       org: "Odyssey Educational Foundation, Nigeria",
       date: "July 2020 – September 2024"
     },
     {
-      role: "Software Engineer",
-      org: "Gallery of Code, Nigeria",
-      date: "March 2022 – June 2024"
+      role: "AI Software Engineer",
+      org: "Nextwear Technologies, Nigeria",
+      date: "July 2022 – August 2024"
     },
     {
-      role: "Software Engineer (Contract)",
-      org: "Nextwear Technologies, Nigeria",
-      date: "July 2022 – June 2024"
+      role: "AI Software Engineer",
+      org: "Gallery of Code, Nigeria",
+      date: "March 2022 – June 2024"
     }
   ];
 
