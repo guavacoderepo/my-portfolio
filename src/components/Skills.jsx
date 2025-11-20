@@ -29,8 +29,6 @@ const Skills = () => {
     "React.js",
     "TypeScript",
     "JavaScript",
-    "API Design",
-    "RESTful APIs",
     "GraphQL",
     "Docker",
     "Kubernetes",
@@ -48,7 +46,6 @@ const Skills = () => {
     "MLflow",
     "CI/CD",
     "Git",
-    "GitHub Actions",
     "Terraform",
     "Serverless",
     "Airflow",
@@ -62,7 +59,6 @@ const Skills = () => {
     "Cucumber",
     "BDD",
     "TDD",
-    "A/B Testing",
 
     // Monitoring & Observability
     "Grafana",
@@ -70,8 +66,6 @@ const Skills = () => {
     "Loki",
 
     // Architectures & Design
-    "Microservices",
-    "RESTful APIs",
     "OOP",
     "SDLC",
     
