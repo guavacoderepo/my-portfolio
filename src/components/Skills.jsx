@@ -12,30 +12,76 @@ const Skills = () => {
     "Scikit-Learn",
     "TensorFlow",
     "PyTorch",
-    "Statistics",
-    "Matplotlib",
-    "Seaborn",
-    "NLP",
     "OpenCV",
     "LLM",
     "RAG",
+    "NLP",
+    "Statistics",
+    "Matplotlib",
+    "Seaborn",
 
     // Web & API Development
     "Flask",
     "FastAPI",
+    "Django",
+    "Node.js",
+    "Express.js",
+    "React.js",
+    "TypeScript",
+    "JavaScript",
     "API Design",
     "RESTful APIs",
+    "GraphQL",
     "Docker",
     "Kubernetes",
+    "Helm",
     "Azure",
     "AWS",
     "Redis",
+    "PostgreSQL",
+    "MongoDB",
+    "MSSQL",
+    "MySQL",
+    "SQLAlchemy",
 
     // ML Lifecycle & DevOps
     "MLflow",
     "CI/CD",
     "Git",
+    "GitHub Actions",
+    "Terraform",
+    "Serverless",
+    "Airflow",
+    "Prefect",
+    "Dagster",
+
+    // Testing & QA
+    "PyTest",
+    "Selenium",
+    "Playwright",
+    "Cucumber",
+    "BDD",
+    "TDD",
+    "A/B Testing",
+
+    // Monitoring & Observability
+    "Grafana",
+    "Prometheus",
+    "Loki",
+
+    // Architectures & Design
+    "Microservices",
+    "RESTful APIs",
+    "OOP",
+    "SDLC",
+    
+    // Soft Skills
+    "Agile",
+    "Mentorship",
+    "Teamwork",
+    "Debugging"
   ];
+
 
   return (
     <section id="skills" className="mt-20 px-4 max-w-4xl mx-auto">

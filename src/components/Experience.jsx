@@ -2,15 +2,10 @@ import React, { useState } from "react";
 
 const Experience = () => {
   const exp = [
-  {
+    {
       role: "Machine Learning Researcher",
       org: "NTU Medical Technologies Innovation Facility (MTIF)",
-      date: "November 2025 - Present"
-    },
-    {
-      role: "Operations Analyst",
-      org: "Hamtee Limited, United Kingdom",
-      date: "October 2025 – Present"
+      date: "October 2025 - Present"
     },
     {
       role: "Software Engineer",
